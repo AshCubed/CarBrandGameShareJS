@@ -311,7 +311,7 @@
                 zIndex: 1e4,
                 backgroundColor: "rgba(43,43,43,1)",
                 fontFamily: "sans-serif",
-                color: "rgba(255,255,255,1)",
+                color: "rgba(43,43,43,1)",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center"
