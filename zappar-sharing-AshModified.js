@@ -309,7 +309,7 @@
                 top: "0px",
                 left: "0px",
                 zIndex: 1e4,
-                backgroundColor: "rgba(92, 14, 55, 1)",
+                backgroundColor: "rgba(255,255,255,1)",
                 fontFamily: "sans-serif",
                 color: "rgba(255,255,255,1)",
                 display: "flex",
