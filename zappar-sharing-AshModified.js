@@ -81,8 +81,7 @@
                 const i = o._getPreviewImage(e.data);
                 if (this.containerButtons.appendChild(this.instructionsText), o._dataURItoFileBlob(e.data, ".jpeg", e.fileNamePrepend).then(i => {
                         if (e.hideShareButton) return;
-                        /*const s = o._prepareShare(i, "jpeg", e.shareUrl, e.shareTitle, e.shareText, t.SHARE);*/
-                        const s = o._prepareShare(i, "jpeg", e.shareText, e.shareTitle, e.shareText, t.SHARE);
+                        const s = o._prepareShare(i, "jpeg", e.shareUrl, e.shareTitle, e.shareText, t.SHARE);
                         null == s || s.addEventListener("click", () => {
                             var t;
                             null === (t = e.onShare) || void 0 === t || t.call(e)
